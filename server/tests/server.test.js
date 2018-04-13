@@ -102,7 +102,6 @@ describe('GET /todos/:id', () =>{
 	});
 });
 
-
 describe('DELETE /todos/:id', ()=>{
 	it('should remove a todo', (done) =>{
 		let hexId = todos[1]._id.toHexString();
